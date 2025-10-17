@@ -13,9 +13,10 @@ public class ParametrsOfMethods {
 //
 //        Условие:
 //        Создай класс Calculator с методом sum, который принимает два числа и выводит их сумму.
-//        Calculator calc = new Calculator(); //вторая задача
-//        calc.sum(3, 7);
-//        calc.sum(10, 25);
+        Calculator calc = new Calculator(); //вторая задача
+        calc.sum(3, 7);
+        calc.sum(10, 25);
+        calc.sum(10,25);
 
 //        🧩 Задача 3. Параметры переменной длины
 //
@@ -39,12 +40,12 @@ public class ParametrsOfMethods {
 //    }
 //}
 
-//class Calculator {  //вторая задача
-//    void sum(int a, int b) {
-//        int result = a + b;
-//        System.out.println(result);
-//    }
-//}
+class Calculator {  //вторая задача
+    void sum(int a, int b) {
+        int result = a + b;
+        System.out.println(result);
+    }
+}
 
 //class Person{ //первая задача
 //    void say(String message) {

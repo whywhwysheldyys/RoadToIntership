@@ -123,35 +123,36 @@ package Generics;
 
 //public class Generics {
 //
-//    static class Pair<K, V> {
-//        private K key;
-//        private V value;
 //
-//        public Pair(K key, V value) {
-//            this.key = key;
-//            this.value = value;
+//        static class Pair<K, V> {
+//            private K key;
+//            private V value;
+//
+//            public Pair(K key, V value) {
+//                this.key = key;
+//                this.value = value;
+//            }
+//
+//            public K getKey() {
+//                return key;
+//            }
+//
+//            public V getValue() {
+//                return value;
+//            }
+//
+//            @Override
+//            public String toString() {
+//                return "Pair{key=" + key + ", value=" + value + "}";
+//            }
 //        }
 //
-//        public K getKey() {
-//            return key;
-//        }
+//        public static void main (String[]args){
+//            Pair<Integer, String> pair1 = new Pair<>(1, "One");
+//            Pair<String, Double> pair2 = new Pair<>("Pi", 3.14);
 //
-//        public V getValue() {
-//            return value;
-//        }
-//
-//        @Override
-//        public String toString() {
-//            return "Pair{key=" + key + ", value=" + value + "}";
+//            System.out.println(pair1);
+//            System.out.println(pair2);
 //        }
 //    }
-//
-//    public static void main(String[] args) {
-//        Pair<Integer, String> pair1 = new Pair<>(1, "One");
-//        Pair<String, Double> pair2 = new Pair<>("Pi", 3.14);
-//
-//        System.out.println(pair1);
-//        System.out.println(pair2);
-//    }
-//}
 
