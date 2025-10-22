@@ -4,8 +4,9 @@ package SealedClasses;
 //
 //Создай иерархию фигур:
 //
-//public sealed class Shape permits Circle, Rectangle {}
-//
+
+//public sealed class Shape permits Circle{}
+//public final class Circle {}
 //final class Circle extends Shape {
 //    double radius;
 //    Circle(double radius) { this.radius = radius; }
