@@ -1,7 +1,7 @@
-package Interface;
-
-public class Interface {
-    public static void main(String[] args) {
+//package Interface;
+//
+//public class Interface {
+//    public static void main(String[] args) {
         // Задача: Интерфейсы
 // Создайте интерфейс Printable с методом print().
 // Создайте два класса: Book и Magazine, которые реализуют Printable.
@@ -94,7 +94,7 @@ public class Interface {
 //                }
 //            }
 //        }
-
-    }
-        }
+//
+//    }
+//        }
 //        }

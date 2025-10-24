@@ -1,7 +1,7 @@
-package IerarxiyaInherit;
-
-public class IerarxiyaInherit {
-    public static void main(String[] args) {
+//package IerarxiyaInherit;
+//
+//public class IerarxiyaInherit {
+//    public static void main(String[] args) {
 
     /*
 Задача 1. Тема: Иерархия наследования и преобразование типов
@@ -228,8 +228,8 @@ public class IerarxiyaInherit {
 //                    Dog myDog = (Dog) myAnimal;
 //                    myDog.fetch();
 //                }
-            }
-        }
+//            }
+//        }
 
 
 
