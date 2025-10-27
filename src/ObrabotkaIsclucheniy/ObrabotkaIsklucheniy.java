@@ -22,6 +22,7 @@ public class ObrabotkaIsklucheniy {
             System.out.println("Результат: " + result);
         } catch (ArithmeticException e) {
             System.out.println("Ошибка: деление на ноль!");
+//            System.out.println(e);
         } finally {
             System.out.println("Операция завершена");
         }

@@ -1,12 +1,41 @@
 package ClassObject;
 
+//public class ClassObject {
+//    public static void main(String[] args) {
+//        /*
+//Задача:
+//Создать класс Book с полями title и author.
+//Переопределить метод toString() для удобного вывода информации.
+//*/
+//
+//        class Book {
+//            private String title;
+//            private String author;
+//
+//            public Book(String title, String author) {
+//                this.title = title;
+//                this.author = author;
+//            }
+//
+//            @Override
+//            public String toString() {
+//                return "Книга: " + title + ", Автор: " + author;
+//            }
+//
+//            Book b = new Book("1984", "Джордж Оруэлл");
+//            System.out.println(b);
+//
+//        }
+//    }
+
+
 public class ClassObject {
     public static void main(String[] args) {
         /*
-Задача:
-Создать класс Book с полями title и author.
-Переопределить метод toString() для удобного вывода информации.
-*/
+        Задача:
+        Создать класс Book с полями title и author.
+        Переопределить метод toString() для удобного вывода информации.
+        */
 
         class Book {
             private String title;
@@ -21,12 +50,13 @@ public class ClassObject {
             public String toString() {
                 return "Книга: " + title + ", Автор: " + author;
             }
-
-            public static void main(String[] args) {
-                Book b = new Book("1984", "Джордж Оруэлл");
-                System.out.println(b);
-            }
         }
+
+        Book b = new Book("1984", "Джордж Оруэлл");
+        System.out.println(b);
+    }
+}
+
 
 
         /*
@@ -98,5 +128,4 @@ public class ClassObject {
 //        }
 
 
-    }
-}
+

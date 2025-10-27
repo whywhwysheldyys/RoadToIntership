@@ -7,24 +7,24 @@ public class Inherit {
 Создать базовый класс Animal с методом makeSound().
 Создать подкласс Dog, который переопределяет makeSound().
 */
-
-        class Animal {
-            public void makeSound() {
-                System.out.println("Животное издает звук");
-            }
-        }
-
-        class Dog extends Animal {
-            @Override
-            public void makeSound() {
-                System.out.println("Собака лает: Гав-гав!");
-            }
-
-            public static void main(String[] args) {
-                Dog d = new Dog();
-                d.makeSound();
-            }
-        }
+//
+//        class Animal {
+//            public void makeSound() {
+//                System.out.println("Животное издает звук");
+//            }
+//        }
+//
+//        class Dog extends Animal {
+//            @Override
+//            public void makeSound() {
+//                System.out.println("Собака лает: Гав-гав!");
+//            }
+//
+//            public static void main(String[] args) {
+//                Dog d = new Dog();
+//                d.makeSound();
+//            }
+//        }
 
 
         /*
