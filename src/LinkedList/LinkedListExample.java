@@ -2,7 +2,7 @@
 //import java.util.Random;
 //import java.util.Collections;
 //
-//public class LinkedList {
+//public class LinkedListExample {
 //    public static void main(String[] args) {
 //        System.out.println("🧩 Тема 1: Связанный список (LinkedList)");
 //
